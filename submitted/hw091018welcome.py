@@ -9,10 +9,10 @@ Created on Fri Sep  7 00:48:54 2018
 def welcomestatement():
     '''
     input: none
-    output: 
+    output:
             1) Welcome message explains purpose of program and instructions
-            2) returns either y or q which either start or quit program, respectively
-    '''   
+            2) returns either s or q which either start or quit program, respectively
+    '''
     # initial welcome statement explaining pupose and instructions
     return('\nWelcome to the decimal-binary conversion program! When prompted, you '
           'will enter a decimal integer, then the program will convert that decimal integer '
@@ -21,4 +21,3 @@ def welcomestatement():
 
 #debug test
 #print(welcomestatement())
-

@@ -13,7 +13,7 @@ def user_input():
     '''
     input_flag = True
     while input_flag == True:
-        user_decimal = input('Enter a decimal number to convert to binary: ')
+        user_decimal = input('Enter a number to convert: ')
         try:
             int(user_decimal)
             input_flag = False
