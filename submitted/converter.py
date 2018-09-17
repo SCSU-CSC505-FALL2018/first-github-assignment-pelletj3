@@ -30,9 +30,8 @@ while program == True:
     print('_______________________________________________')
     if igfx.ignition() == 's':
         int_to_eval = (infx.user_input())
-        print('\n' + str(int_to_eval) + ' in binary form is ' + 
-              confx.dec_to_bin_converter(int_to_eval))     
+        print('\n' + str(int_to_eval) + ' in binary form is ' +
+              confx.dec_to_bin_converter(int_to_eval))
     else:
         print('\nThank you! Goodbye.')
         program = False
-        
